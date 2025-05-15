@@ -3,7 +3,6 @@
 
 import { TaskStateModel } from "../models/TaskStateModel";
 
-// FORA DA CLASSE, NÃO PODE FAZER New
 let instance: TimerWorkerManager | null = null;
 
 export class TimerWorkerManager {

@@ -1,16 +1,3 @@
-// Função genérica para ordenar o array de tasks
-//
-// O método .sort() recebe uma função que compara dois itens (a, b) e deve retornar:
-// - Um número NEGATIVO (-1) se "a" deve vir antes de "b".
-// - Um número POSITIVO (1) se "a" deve vir depois de "b".
-// - ZERO (0) se não precisa mudar a ordem.
-//
-// A função cuida de:
-// 1. Se o valor for null, joga pro final da lista.
-// 2. Se for número, ordena numericamente (asc ou desc).
-// 3. Se for string, ordena alfabeticamente (asc ou desc).
-//
-// O spread [...tasks] cria uma cópia do array original para não alterar ele direto.
 
 import { TaskModel } from '../models/TaskModel';
 
@@ -33,13 +20,10 @@ export function sortTasks({
 
     // --- TRATANDO VALORES NULOS ---
 
-    // Se os dois forem nulos, mantemos a ordem atual
     if (aValue === null && bValue === null) return 0;
 
-    // Se apenas o primeiro for nulo, ele vai para o final
     if (aValue === null) return 1;
 
-    // Se apenas o segundo for nulo, ele vai para o final
     if (bValue === null) return -1;
 
     // --- COMPARAÇÃO NUMÉRICA ---
