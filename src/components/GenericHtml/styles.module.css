@@ -1,0 +1,55 @@
+.genericHtml {
+    margin: 0 20px;
+}
+
+@media (min-width: 768px) {
+    .genericHtml {
+        margin: 0;
+    }
+}
+.genericHtml h1 {
+  font-size: 35px;
+  margin-bottom: 16px;
+}
+
+.genericHtml h2 {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.genericHtml h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.genericHtml p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+.genericHtml a {
+  color: var(--link-color);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.genericHtml a:hover {
+  text-decoration: underline;
+}
+
+.genericHtml ul {
+  padding-left: 24px;
+}
+
+.genericHtml li {
+  margin-bottom:8px;
+}
+
+.genericHtml img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin: 16px 0;
+}

@@ -1,0 +1,26 @@
+.defaultInputBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+}
+.input {
+    text-align: center;
+    padding: 10px;
+    font-size: 19px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-bottom: 1px solid var(--primary);
+    outline: none;
+    color: var(--text-default);  
+}
+
+.input:focus {
+    border-radius: 10px;
+    transition: 0.1s ease-in-out;
+    border: 1px solid var(--primary);
+}
+.input:disabled {
+    border-bottom: 1px solid var(--disabled);
+    color: var(--text-muted);
+}

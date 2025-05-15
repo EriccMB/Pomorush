@@ -1,0 +1,20 @@
+.logoLinkBox {
+    color: var(--primary);
+    text-decoration: none;
+    font-size: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.logoLinkBox svg {
+    width: 80px;
+    height: 80px;
+}
+
+.logoLinkBox:hover {
+    filter: brightness(80%);
+    transition: 0.2s ease-in-out;
+}

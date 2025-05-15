@@ -1,0 +1,25 @@
+.menuBox {
+    display: flex;
+    gap: 30px;
+}
+
+.menuBox svg {
+    width: 30px;
+    height: 30px;
+}
+
+.menuBox a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary);
+    color: var(--text-over-primary);
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.menuBox a:hover {
+    filter: brightness(80%);
+    transition: 0.2s ease-in-out;
+}

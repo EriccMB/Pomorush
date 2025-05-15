@@ -1,0 +1,10 @@
+.countDownBox {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+@media (min-width: 768px) {
+    .countDownBox {
+        font-size: 80px;
+    }  
+}

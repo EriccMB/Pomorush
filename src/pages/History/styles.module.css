@@ -1,0 +1,40 @@
+.buttonContainer button {
+  min-width: 0;
+  margin: 0;
+  padding: 10px;
+  background-color: var(--error);
+  color: white;
+}
+.tableBox {
+  overflow-x: auto;
+  border-radius: 8px;
+}
+.tableBox table {
+  width: 100%;
+  min-width: 700px;
+  border-collapse: collapse;
+  font-size: 18px;
+}
+
+.tableBox th {
+  background-color: var(--gray-600);
+}
+.tableBox td {
+  background-color: var(--gray-800);
+}
+
+.tableBox th,
+.tableBox td {
+  border-bottom: 2px solid var(--gray-700);
+  text-align: left;
+  padding: 20px;
+}
+
+.thSort {
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.thSort:hover {
+  opacity: 80%;
+}
